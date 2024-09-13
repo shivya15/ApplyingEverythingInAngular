@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './style-binding.component.css'
 })
 export class StyleBindingComponent {
+  title="Style Binding"
+  color="Red"
 
+  updateColor(){
+    this.color="green"
+  }
 }
